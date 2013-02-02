@@ -1,4 +1,4 @@
-package org.my.facebookalgorithm;
+package org.my.facebookalgorithm.facade;
 
 import java.awt.Desktop;
 import java.io.File;
@@ -13,6 +13,10 @@ import javax.swing.JOptionPane;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
+import org.my.facebookalgorithm.FriendsPair;
+import org.my.facebookalgorithm.api.FaceBookAPI;
+import org.my.facebookalgorithm.api.MyDetailsAPI;
+import org.my.facebookalgorithm.utilities.CSVWriter;
 import org.osgi.service.log.LogService;
 
 public class Facade {

@@ -1,11 +1,12 @@
-package org.my.facebookalgorithm;
+package org.my.facebookalgorithm.api;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import org.my.facebookalgorithm.DownloadHandler.InvalidUrlException;
-import org.my.facebookalgorithm.DownloadHandler.NetworkConnectionException;
+import org.my.facebookalgorithm.utilities.DownloadHandler;
+import org.my.facebookalgorithm.utilities.DownloadHandler.InvalidUrlException;
+import org.my.facebookalgorithm.utilities.DownloadHandler.NetworkConnectionException;
 
 public class FriendsWithFriendsAPI implements FaceBookAPI {
 

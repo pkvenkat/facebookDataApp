@@ -1,4 +1,4 @@
-package org.my.facebookalgorithm;
+package org.my.facebookalgorithm.api;
 
 public interface FaceBookAPI {
 	

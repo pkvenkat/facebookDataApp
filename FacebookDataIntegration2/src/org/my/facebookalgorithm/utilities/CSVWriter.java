@@ -1,4 +1,4 @@
-package org.my.facebookalgorithm;
+package org.my.facebookalgorithm.utilities;
 
 import java.io.FileWriter;
 import java.io.IOException;

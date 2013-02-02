@@ -23,8 +23,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
-import org.my.facebookalgorithm.DownloadHandler.InvalidUrlException;
-import org.my.facebookalgorithm.DownloadHandler.NetworkConnectionException;
+import org.my.facebookalgorithm.api.FaceBookAPI;
+import org.my.facebookalgorithm.api.FriendsWithFriendsAPI;
+import org.my.facebookalgorithm.api.MyFriendsAPI;
+import org.my.facebookalgorithm.facade.Facade;
+import org.my.facebookalgorithm.utilities.DownloadHandler.InvalidUrlException;
+import org.my.facebookalgorithm.utilities.DownloadHandler.NetworkConnectionException;
 import org.osgi.service.log.LogService;
 
 public class facebookAlgo implements Algorithm {
